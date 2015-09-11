@@ -6,4 +6,13 @@ class Student {
   private Date birthDate;
   protected char gender;
   
+  
+  public Student(){
+  }
+  
+  private void readData() {  // reads data for instance variables from console window
+  }
+  
+  public void print() {  //  prints values of instance variables to the standard output
+  }
 }
