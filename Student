@@ -16,7 +16,7 @@ class Student {
 	}
 	  
     private void readData() {  // reads data for instance variables 
-	  						 // from console window
+	  		       // from console window
 	    System.out.println("Please input the name: ");
 	    name = scan.nextLine();
 
@@ -62,7 +62,16 @@ class Student {
     }
 	  
 	public void print() {  //  prints values of instance variables 
-		  					 //  to the standard output
+		  	       //  to the standard output
+		System.out.println("The information you input was");
+		System.out.printf("\n%s's  ssn is %d.", name, ssn);
+		System.out.printf("\nHe is taking %d courses.", numOfCourses);
+		System.out.printf("\nHis birth date is %d/%d/%d", month, day, year);
+		System.out.printf("\nHis research topic is %s.", researchTopic);
+		System.out.printf("\nHis advisor is %s.", advisor);
+		System.out.printf("\nHis TA course is %s.", taCourse);
+		System.out.printf("\nHis TA instructor is %s.", taInstructor);
+		System.out.printf("\nHis hire date is %d/%d/%d", month, day, year);
 	}
 	
 }
