@@ -4,6 +4,6 @@ class Student {
   private int ssn;
   private int numOfCourses;
   private Date birthDate;
-  private char gender;
+  protected char gender;
   
 }
