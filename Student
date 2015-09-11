@@ -1,2 +1,9 @@
 class Student {
+
+  private String name;
+  private int ssn;
+  private int numOfCourses;
+  private Date birthDate;
+  private char gender;
+  
 }
